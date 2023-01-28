@@ -141,4 +141,8 @@ public class WhatsappRepository {
 
         return groupUserMap.get(g1).size() + groupMessageMap.get(g1).size() + senderMap.size();
     }
+
+    public String findMessage(Date start, Date end, int K) throws Exception{
+        return "null";
+    }
 }
